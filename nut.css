@@ -1,0 +1,43 @@
+.modal {
+  display: none; /* Ẩn modal mặc định */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Màu nền mờ */
+  
+}
+
+/* Nội dung Modal */
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 30%;
+  position: relative;
+  border-radius: 10px;
+  color: rgb(70, 75, 163);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Nút đóng (X) */
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(31, 33, 79);
+  text-decoration: none;
+  cursor: pointer;
+}

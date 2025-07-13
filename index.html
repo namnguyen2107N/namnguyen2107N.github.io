@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Text in 3D Space</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nut.css">
+</head>
+<body>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Phúc Nam!</h2>
+        <p>Cảm ơn các cậu. Những nụ cười khiến cuộc sống tớ trở lên tươi đẹp<br>MÃI YÊU 12C3 I LOVE EVERYONE</p>
+    </div>
+    </div>
+    <audio id="myAudio" loop>
+    <source src="Iframe ĐẠI LỘ MẶT TRỜI - CHILLIES (Official Music Video) [lMKfZwnHzig].mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <script>
+    document.body.addEventListener('click', function() {
+        var audio = document.getElementById('myAudio');
+        audio.play();
+    });
+    </script>
+    <div id="bg-particles"></div>
+    <div id="video-scene">
+        <canvas id="star-bg"></canvas>
+        <div id="messages-container"></div>
+        <div id="icons-container"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="nut.js"></script>
+</body>
+</html>
