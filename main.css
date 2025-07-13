@@ -32,6 +32,16 @@ body {
   pointer-events: none;
   display: block;
 }
+#messages-container,
+#icons-container {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 1;
+  pointer-events: none;
+  transform: rotateX(30deg) rotateY(15deg); /* nghiêng về trước, xoay sang trái */
+  transform-style: preserve-3d;
+}
 .falling-message {
   position: absolute;
   top: 0;
