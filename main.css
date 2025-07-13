@@ -41,9 +41,9 @@ body {
   pointer-events: none;
   transform: rotateX(30deg) rotateY(15deg); /* nghiêng về trước, xoay sang trái */
   transform-style: preserve-3d;
-
-  
 }
+
+
 .falling-message {
   position: absolute;
   top: 0;
